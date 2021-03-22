@@ -1,9 +1,9 @@
 
-## content of /src/main/resources/application.yml
+# content of /src/main/resources/application.yml
 spring:
   datasource:
-    url: &dbURL jdbc:mysql://83.98.243.185:3306/nts_training
-    username: &dbUser root
+    url: &dbURL jdbc:mysql://localhost:3306/peergame
+    username: &dbUser projectuser
     password: &dbPassword wgnd8b
   jpa:
     properties:
