@@ -1,0 +1,13 @@
+
+## content of /src/main/resources/application.yml
+spring:
+  datasource:
+    url: &dbURL jdbc:mysql://83.98.243.185:3306/nts_training
+    username: &dbUser root
+    password: &dbPassword wgnd8b
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
